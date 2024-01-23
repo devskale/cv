@@ -19,11 +19,11 @@ import { ProjectCard } from "@/components/project-card";
 
 
 export default function Page() {
-  const [language, setLanguage] = useState('en'); // Track the current language separately
+  const [language, setLanguage] = useState<'en' | 'de'>('en'); // Specify the type for state
   const [resumeData, setResumeData] = useState(RESUME_DATA_EN);
 
-  const handleLanguageChange = (newLanguage) => {
-    setLanguage(newLanguage); // Update the language state
+  const handleLanguageChange = (newLanguage: 'en' | 'de') => { // Specify the type for newLanguage
+    setLanguage(newLanguage);
     setResumeData(newLanguage === 'en' ? RESUME_DATA_EN : RESUME_DATA_DE);
   };
 
