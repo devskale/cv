@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Neusiedl am See, Austria, CET",
   locationLink: "https://maps.app.goo.gl/hRnHuWXARPzwCYcE8",
   about:
-    "Business Developer with a focus on Computer Science, Artificial Intelligence (AI) and Robotics.",
+    "Business developer with applied expertise in Computer Science, Artificial Intelligence (AI), and Robotics.",
   summary:
-    "As a Development Engineer i worked on custom ASICs (Infineon) and created the initial version of optical fiber networ (Riedel). As a Business Developer i cofounded startups, raised research fund and venture capital and built and led teams.",
+    "In my role as a Development Engineer, I specialized in designing custom ASICs and played a pivotal role in developing the first version of the optical fiber network at Riedel. Transitioning into Business Development, I have successfully co-founded several startups, securing research funding and venture capital. My expertise extends to building and leading diverse teams, fostering innovation and driving business growth.",
   avatarUrl: "https://media.licdn.com/dms/image/C5603AQEuKW28-ihawA/profile-displayphoto-shrink_800_800/0/1531836294847?e=1711584000&v=beta&t=QP45JPmvSL8eESn8f8bWxNvOSc5xxHv0o9x2Ns05iNA",
   personalWebsiteUrl: "https://skale.io",
   contact: {
@@ -101,13 +101,13 @@ export const RESUME_DATA = {
     },
     {
       company: "StreamUnlimited Engineering (SUE)",
-      link: "https://www.nokia.com",
+      link: "https://www.streamunlimited.com",
       badges: ["Onsite", "Travel"],
       title: "International Sales Manager",
       logo: NSNLogo,
       start: "2007",
       end: "2008",
-      description: "Established international sales contacts for SUE's SW and HW products. Grew the sales pipeline +30%. In 2017 Google aquired a stake in SUE.",
+      description: "Expanded the global sales network for SUE's software and hardware products, achieving a 30% growth in the sales pipeline. Notably, in 2017, Google acquired a stake in SUE.",
     },
     {
       company: "skale venture development",
@@ -116,73 +116,122 @@ export const RESUME_DATA = {
       title: "Owner",
       logo: NSNLogo,
       start: "2008",
-      end: "2024",
+      end: "ongoing",
       description: "Consulting and coaching for startups and SMEs. Acted as cofounder, business partner, CTO for several startups. Raised research funds and venture capital. Built and led teams.",
     }
   ],
   skills: [
-    "Computer Science",
-    "ASIC Design",
-    "System Architecture",
-    "python",
-    "ML",
-    "Relay",
     "Business Planning",
+    "Tech Funding",
+    "Computer Science",
+    "System Architecture",
+    "AI/ML",
+    "Robotics",
+    "Embedded Computing",
   ],
   awards: [
     "Best Austrian Startup Award WKO",
     "Winner at Pioneers Startup Festival",
     "3d place at i2b Businessplan Competition",
-    "Nominee Austrian Stateprize Consulting WKO"
+    "Nominee Austrian Stateprize Consulting WKO",
+    "WKO Constantinus Award Finalist"
   ],
   projects: [
     {
-      title: "sonarflow",
+      title: "GreenPilot",
+      techStack: ["Mobile Game", "Education", "GreenTech"],
+      description:
+        "Conception and financing of a mobile game that teaches kids about renewable energy.",
+      logo: Minimal,
+      link: {
+        label: "greenpilot.at",
+        href: "https://www.greenpilot.at/",
+      },
+    },
+    {
+      title: "Retinsight",
+      techStack: ["AI", "MedTech", "Research Grant"],
+      description:
+        "Aquisition of seed grant of 500k€ from the Austrian Research Promotion Agency (FFG) for a university spinoff project that uses AI to analyze the retina.",
+      logo: BarepapersLogo,
+      link: {
+        label: "Retinsight",
+        href: "https://retinsight.com/",
+      },
+    },
+    {
+      title: "Pino Robotics",
+      techStack: ["AI Vision", "Robotics", "Funding"],
+      description: "Funding for an innovative AI vision technology to make industrial robotics usable for SMEs.",
+      logo: YearProgressLogo,
+      link: {
+        label: "cncmonster.eu",
+        href: "https://cncmonster.eu/",
+      },
+    },
+    {
+      title: "Bionana",
       techStack: [
-        "Founding Partner",
-        "Machine Learning",
-        "Business Planning",
-        "Fundraising",
-        "Venture Capital"
+        "biodiversity",
+        "e-commerce",
       ],
-      description: "A machine learning platform for music recommendation. I cofounded the company, raised research funds and venture capital and built and led the business team.",
-      logo: ConsultlyLogo,
+      description:
+        "Consulting for a startup that builds a marketplace for biodiversity.",
+      logo: ParabolLogo,
       link: {
-        label: "sonarflow.com",
-        href: "https://sonarflow.com/",
+        label: "bionana.at",
+        href: "https:/bionana.at/",
       },
     },
     {
-      title: "Stromkind",
-      techStack: ["Founding Partner",
-        "Robotics",
-        "Drones",
-        "Business Development"],
+      title: "BlueInvest",
+      techStack: [
+        "Blue Economy",
+        "Consulting",
+        "EU",
+      ],
       description:
-        "Cofounded a company that builds and sells industrial drones. Won client contracts in Switzerland, Norway, UAE, Thailand and China.",
-      logo: MonitoLogo,
+        "Coaching for startups and SMEs in the Blue Economy. BlueInvest is an initiative of the European Commission.",
+      logo: ParabolLogo,
       link: {
-        label: "stromkind.com",
-        href: "https://stromkind.com/",
+        label: "blueinvest",
+        href: "https://blueinvest-community.converve.io/",
       },
     },
     {
-      title: "sylents",
-      techStack: ["Founding Partner", "Germany", "Maritime Electric Jet"],
+      title: "Seasy",
+      techStack: [
+        "AI",
+        "Business Development",
+      ],
       description:
-        "Initiated and cofounded a company that builds electric jets for maritime applications. Led the technical development of the first prototype and moved technology to production.",
-      logo: JarockiMeLogo,
+        "Consulting for a startup that builds europes leading marina rental platform.",
+      logo: ParabolLogo,
       link: {
-        label: "github.com",
-        href: "https://sylents.de/",
+        label: "seasy.com",
+        href: "https://seasy.com/",
+      },
+    },
+    {
+      title: "Skyability",
+      techStack: [
+        "Drone",
+        "Sensor Fusion",
+        "3D Mapping",
+      ],
+      description:
+        "Led the funding process for a startup that builds a drone based 3D mapping solution for the construction industry.",
+      logo: ParabolLogo,
+      link: {
+        label: "skyability.com",
+        href: "https://skyability.com/",
       },
     },
   ],
   seeds: [
     {
-      title: "sonarflow",
+      title: "sonarflow visual music discovery",
       techStack: [
-        "Founding Partner",
         "Machine Learning",
         "Business Planning",
         "Fundraising",
@@ -196,8 +245,8 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Stromkind",
-      techStack: ["Founding Partner",
+      title: "stromkind drones",
+      techStack: [
         "Robotics",
         "Drones",
         "Business Development"],
@@ -210,64 +259,16 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "sylents",
-      techStack: ["Founding Partner", "Germany", "Maritime Electric Jet"],
+      title: "sylents e-jets",
+      techStack: ["e-mobility", "maritime", "Production Rampup", "Germany"],
       description:
-        "Initiated and cofounded a company that builds electric jets for maritime applications. Led the technical development of the first prototype and moved technology to production.",
+        "Initiated and cofounded a company that builds novel electric jets for maritime applications. Built techteam. Led development from first prototype to production.",
       logo: JarockiMeLogo,
       link: {
-        label: "github.com",
+        label: "sylents.de",
         href: "https://sylents.de/",
       },
     },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
+
   ],
 } as const;
