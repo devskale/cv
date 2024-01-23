@@ -63,7 +63,7 @@ export const RESUME_DATA = {
       title: "Inhaber",
       logo: skaleLogo,
       start: "2008",
-      end: "-",
+      end: "heute",
       description: "Beratung und Coaching für Start-ups und KMU. Als Mitgründer, Geschäftspartner, CTO für mehrere Technologieunternehmen tätig. Einwerbung von Forschungsgelder und Risikokapital. Teams aufgebaut und geleitet.",
     },
     {
