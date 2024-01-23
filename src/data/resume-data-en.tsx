@@ -172,7 +172,7 @@ export const RESUME_DATA = {
       logo: sLogo,
       link: {
         label: "bionana.at",
-        href: "https:/bionana.at/",
+        href: "https://www.bloomling.at/bionana",
       },
     },
     {

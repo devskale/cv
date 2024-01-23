@@ -43,14 +43,14 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Vienna University of Technology",
-      degree: "Master's Degree in Computer Science",
+      school: "Technische Universität Wien",
+      degree: "Diplomstudium Computertechnik",
       start: "1993",
       end: "2000",
     },
     {
-      school: "Danube University Krems",
-      degree: "MBA course in Entrepreneurship & Innovation",
+      school: "Donau Universität Krems",
+      degree: "MBA Kurs Entrepreneurship & Innovation",
       start: "2004",
       end: "2006",
     }
@@ -60,11 +60,11 @@ export const RESUME_DATA = {
       company: "skale venture development",
       link: "https://www.skale.io",
       badges: ["Onsite", "Remote"],
-      title: "Owner",
+      title: "Inhaber",
       logo: skaleLogo,
       start: "2008",
-      end: "ongoing",
-      description: "Consulting and coaching for startups and SMEs. Acting as cofounder, business partner, CTO for several tech companies. Raised research funds and venture capital. Built, grew and led teams.",
+      end: "-",
+      description: "Beratung und Coaching für Start-ups und KMU. Als Mitgründer, Geschäftspartner, CTO für mehrere Technologieunternehmen tätig. Einwerbung von Forschungsgelder und Risikokapital. Teams aufgebaut und geleitet.",
     },
     {
       company: "StreamUnlimited Engineering (SUE)",
@@ -74,7 +74,7 @@ export const RESUME_DATA = {
       logo: sueLogo,
       start: "2007",
       end: "2008",
-      description: "Expanded the global sales network for SUE's software and hardware products, achieving a 30% growth in the sales pipeline. Notably, in 2017, Google acquired a stake in SUE.",
+      description: "Ausweitung des globalen Vertriebsnetzes für die Software- und Hardwareprodukte von SUE, wodurch ein Wachstum der Vertriebspipeline um 30 % erreicht wurde. Bemerkenswert: 2017 beteiligt sich Google an SUE.",
     },
     {
       company: "Riedel Mediornet",
@@ -85,7 +85,7 @@ export const RESUME_DATA = {
       start: "2004",
       end: "2007",
       description:
-        "Built the system architecture for the first optical fiber network for audio and video transmission. Led the development of the first version of the product.",
+        "Aufbau der Systemarchitektur für das erste Glasfasernetzwerk zur Audio- und Videoübertragung. Leitete die Entwicklung der ersten Version des Produkts.",
     },
     {
       company: "Infineon Technologies",
@@ -96,7 +96,7 @@ export const RESUME_DATA = {
       start: "2001",
       end: "2003",
       description:
-        "Product ownership of a complex DSL modem ASIC design. DSP algorithm development into IP phone equipment.",
+        "Produktbesitz eines komplexen DSL-Modem-ASIC-Designs. Entwicklung von DSP-Algorithmen für IP-Telefongeräte.",
     },
     {
       company: "Coactive Networks",
@@ -107,7 +107,7 @@ export const RESUME_DATA = {
       start: "1999",
       end: "2000",
       description:
-        "ASIC design for powerline communication. Integration of a USB IP core into a custom chip design.",
+        "ASIC-Design für Powerline-Kommunikation. Integration eines USB-IP-Cores in ein individuelles Chipdesign.",
     },
 
   ],
@@ -121,18 +121,18 @@ export const RESUME_DATA = {
     "Embedded Computing",
   ],
   awards: [
-    "Best Austrian Startup Award WKO",
-    "Winner at Pioneers Startup Festival",
-    "3d place at i2b Businessplan Competition",
-    "Nominee Austrian Stateprize Consulting WKO",
-    "WKO Constantinus Award Finalist"
+    "Bestes Startup Österreichs WKO",
+    "Gewinner Pioneers Startup Festival",
+    "3er Rang i2b Businessplan",
+    "Nominiert für Österreichischer Staatspreis Consulting",
+    "WKO Constantinus Preis Finalist"
   ],
   projects: [
     {
       title: "GreenPilot",
       techStack: ["Mobile Game", "Education", "GreenTech"],
       description:
-        "Conception and financing of a mobile game that teaches kids about renewable energy.",
+        "Konzeption und Finanzierung eines Handyspiels, das Kindern erneuerbare Energien näherbringt.",
       logo: sLogo,
       link: {
         label: "greenpilot.at",
@@ -143,7 +143,7 @@ export const RESUME_DATA = {
       title: "Retinsight AI",
       techStack: ["AI", "MedTech", "Research Grant"],
       description:
-        "Aquisition of seed grant of 500k€ from the Austrian Research Promotion Agency (FFG) for a university spinoff project that uses AI to analyze the retina.",
+        "Beratung für einen Seed Grant über 500.000 € von der Österreichischen Forschungsförderungsgesellschaft (FFG) für ein universitäres Spin-off-Projekt, das KI zur Analyse der Netzhaut nutzt.",
       logo: sLogo,
       link: {
         label: "Retinsight",
@@ -153,7 +153,7 @@ export const RESUME_DATA = {
     {
       title: "Pino Robotics",
       techStack: ["AI Vision", "Robotics", "Funding"],
-      description: "Funding for an innovative AI vision technology to make industrial robotics usable for SMEs.",
+      description: "Förderung einer innovativen KI-Vision-Technologie, um Industrierobotik für KMU nutzbar zu machen.",
       logo: sLogo,
       link: {
         label: "cncmonster.eu",
@@ -167,11 +167,11 @@ export const RESUME_DATA = {
         "e-commerce",
       ],
       description:
-        "Consulting for a startup that builds a marketplace for biodiversity.",
+        "Beratung für ein Startup, das einen Marktplatz für Biodiversität aufbaut.",
       logo: sLogo,
       link: {
         label: "bionana.at",
-        href: "https:/bionana.at/",
+        href: "https://www.bloomling.at/bionana",
       },
     },
     {
@@ -182,7 +182,7 @@ export const RESUME_DATA = {
         "EU",
       ],
       description:
-        "Coaching for startups and SMEs in the Blue Economy. BlueInvest is an initiative of the European Commission.",
+        "Coaching für Startups und KMUs in der Blue Economy. BlueInvest ist eine Initiative der Europäischen Kommission.",
       logo: sLogo,
       link: {
         label: "blueinvest",
@@ -196,7 +196,7 @@ export const RESUME_DATA = {
         "Business Development",
       ],
       description:
-        "Consulting for a startup that builds europes leading marina rental platform.",
+        "Beratung für ein Startup, das Europas führende Marina-Vermietungsplattform aufbaut.",
       logo: sLogo,
       link: {
         label: "seasy.com",
@@ -211,7 +211,7 @@ export const RESUME_DATA = {
         "3D Mapping",
       ],
       description:
-        "Led the funding process for a startup that builds a drone based 3D mapping solution for the construction industry.",
+        "Leitete den Finanzierungsprozess für ein Startup, das eine drohnenbasierte 3D-Kartierungslösung für die Bauindustrie entwickelt.",
       logo: sLogo,
       link: {
         label: "skyability.com",
@@ -224,7 +224,7 @@ export const RESUME_DATA = {
       title: "sylents e-jets",
       techStack: ["e-mobility", "maritime", "Production Rampup", "Germany"],
       description:
-        "Initiated and cofounded a company that builds novel electric jets for maritime applications. Built techteam. Led development from first prototype to production.",
+        "Mitbegründer eines Unternehmens, das neuartige Elektrojets für maritime Anwendungen baut. Aufbau eines Techteams. Entwicklungsleitung vom Prototyp bis zur Produktion.",
       logo: sLogo,
       link: {
         label: "sylents.de",
@@ -238,7 +238,7 @@ export const RESUME_DATA = {
         "Drones",
         "Business Development"],
       description:
-        "Cofounded a company that builds and sells industrial drones. Aquireed seed funding. Won clients in Switzerland, Norway, UAE, Thailand and China exceeding 500k€ in sales value",
+        "Mitbegründer eines Unternehmens, das Industriedrohnen baut und verkauft. Erworbene Startkapitalfinanzierung. Gewinnung von Kunden in der Schweiz, Norwegen, den Vereinigten Arabischen Emiraten, Thailand und China mit einem Umsatzwert von über 500.000 €",
       logo: sLogo,
       link: {
         label: "stromkind.com",
@@ -253,7 +253,7 @@ export const RESUME_DATA = {
         "Fundraising",
         "Venture Capital"
       ],
-      description: "A machine learning platform for music recommendation. I cofounded the company, raised research funds and venture capital and built and led the business team.",
+      description: "Eine maschinelle Lernplattform für Musikempfehlungen. Ich war Mitbegründer des Unternehmens, sammelte Forschungsgelder und Risikokapital und leitete das Business Team.",
       logo: sLogo,
       link: {
         label: "sonarflow.com",
