@@ -104,14 +104,15 @@ export default function Page() {
             return (
               <Card key={work.company}>
                 <div className="flex" style={{ alignItems: 'flex-start' }}>
-                  <img src={work.logo.src}
+                  <img
+                    src={work.logo.src || ''}
                     alt="Company Logo"
                     style={{
                       width: '50px',
                       height: 'auto',
                       objectFit: 'contain',
                       filter: 'grayscale(100%)',
-                      marginRight: '20px',
+                      marginRight: '25px',
                       marginTop: '10px'
                     }}
                   />

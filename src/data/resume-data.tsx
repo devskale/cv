@@ -7,6 +7,7 @@ import {
   sLogo,
 } from "@/images/logos";
 
+
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -17,7 +18,7 @@ export const RESUME_DATA = {
   about:
     "Business developer with applied expertise in Computer Science, Artificial Intelligence (AI), and Robotics.",
   summary:
-    "In my role as a Development Engineer, I specialized in designing custom ASICs and developed the first version of an optical fiber network. Transitioning into Business Development, I co-founded several startups, securing research funding and venture capital. My expertise extends to building and leading diverse teams, fostering innovation and driving business growth.",
+    "As a Development Engineer, I designed custom ASICs and advanced to a Team Lead, steering the creation of a novel optical fiber network. My career pivoted to Business Development, where I worked with technology firms and co-founded startups, securing significant venture capital, and honed my skills in transforming ideas into products. My expertise lies in growing diverse teams and fostering innovation to drive business growth.",
   avatarUrl: "https://media.licdn.com/dms/image/C5603AQEuKW28-ihawA/profile-displayphoto-shrink_800_800/0/1531836294847?e=1711584000&v=beta&t=QP45JPmvSL8eESn8f8bWxNvOSc5xxHv0o9x2Ns05iNA",
   personalWebsiteUrl: "https://skale.io",
   contact: {
@@ -57,26 +58,24 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Coactive Networks",
-      link: "https://coactive.com",
-      badges: ["US", "Silicon Valley"],
-      title: "ASIC Designer",
-      logo: coactiveLogo,
-      start: "1999",
-      end: "2000",
-      description:
-        "ASIC design for powerline communication. Integration of a USB IP core into a custom chip design.",
+      company: "skale venture development",
+      link: "https://www.skale.io",
+      badges: ["Onsite", "Remote"],
+      title: "Owner",
+      logo: skaleLogo,
+      start: "2008",
+      end: "ongoing",
+      description: "Consulting and coaching for startups and SMEs. Acting as cofounder, business partner, CTO for several tech companies. Raised research funds and venture capital. Built, grew and led teams.",
     },
     {
-      company: "Infineon Technologies",
-      link: "https://infineon.com",
-      badges: ["Onsite"],
-      title: "ASIC Engineer → DSP Engineer",
-      logo: infineonLogo,
-      start: "2001",
-      end: "2003",
-      description:
-        "Product ownership of a complex DSL modem ASIC design. DSP algorithm development into IP phone equipment.",
+      company: "StreamUnlimited Engineering (SUE)",
+      link: "https://www.streamunlimited.com",
+      badges: ["Onsite", "International"],
+      title: "International Sales Manager",
+      logo: sueLogo,
+      start: "2007",
+      end: "2008",
+      description: "Expanded the global sales network for SUE's software and hardware products, achieving a 30% growth in the sales pipeline. Notably, in 2017, Google acquired a stake in SUE.",
     },
     {
       company: "Riedel Mediornet",
@@ -90,25 +89,28 @@ export const RESUME_DATA = {
         "Built the system architecture for the first optical fiber network for audio and video transmission. Led the development of the first version of the product.",
     },
     {
-      company: "StreamUnlimited Engineering (SUE)",
-      link: "https://www.streamunlimited.com",
-      badges: ["Onsite", "International"],
-      title: "International Sales Manager",
-      logo: sueLogo,
-      start: "2007",
-      end: "2008",
-      description: "Expanded the global sales network for SUE's software and hardware products, achieving a 30% growth in the sales pipeline. Notably, in 2017, Google acquired a stake in SUE.",
+      company: "Infineon Technologies",
+      link: "https://infineon.com",
+      badges: ["Onsite"],
+      title: "ASIC Engineer → DSP Engineer",
+      logo: infineonLogo,
+      start: "2001",
+      end: "2003",
+      description:
+        "Product ownership of a complex DSL modem ASIC design. DSP algorithm development into IP phone equipment.",
     },
     {
-      company: "skale venture development",
-      link: "https://www.skale.io",
-      badges: ["Onsite", "Remote"],
-      title: "Owner",
-      logo: skaleLogo,
-      start: "2008",
-      end: "ongoing",
-      description: "Consulting and coaching for startups and SMEs. Acted as cofounder, business partner, CTO for several startups. Raised research funds and venture capital. Built and led teams.",
-    }
+      company: "Coactive Networks",
+      link: "https://coactive.com",
+      badges: ["US", "Silicon Valley"],
+      title: "ASIC Designer",
+      logo: coactiveLogo,
+      start: "1999",
+      end: "2000",
+      description:
+        "ASIC design for powerline communication. Integration of a USB IP core into a custom chip design.",
+    },
+
   ],
   skills: [
     "Business Planning",
@@ -220,6 +222,31 @@ export const RESUME_DATA = {
   ],
   seeds: [
     {
+      title: "sylents e-jets",
+      techStack: ["e-mobility", "maritime", "Production Rampup", "Germany"],
+      description:
+        "Initiated and cofounded a company that builds novel electric jets for maritime applications. Built techteam. Led development from first prototype to production.",
+      logo: sLogo,
+      link: {
+        label: "sylents.de",
+        href: "https://sylents.de/",
+      },
+    },
+    {
+      title: "stromkind drones",
+      techStack: [
+        "Robotics",
+        "Drones",
+        "Business Development"],
+      description:
+        "Cofounded a company that builds and sells industrial drones. Aquireed seed funding. Won clients in Switzerland, Norway, UAE, Thailand and China exceeding 500k€ in sales value",
+      logo: sLogo,
+      link: {
+        label: "stromkind.com",
+        href: "https://stromkind.com/",
+      },
+    },
+    {
       title: "sonarflow visual music discovery",
       techStack: [
         "Machine Learning",
@@ -232,31 +259,6 @@ export const RESUME_DATA = {
       link: {
         label: "sonarflow.com",
         href: "https://sonarflow.com/",
-      },
-    },
-    {
-      title: "stromkind drones",
-      techStack: [
-        "Robotics",
-        "Drones",
-        "Business Development"],
-      description:
-        "Cofounded a company that builds and sells industrial drones. Won client contracts in Switzerland, Norway, UAE, Thailand and China.",
-      logo: sLogo,
-      link: {
-        label: "stromkind.com",
-        href: "https://stromkind.com/",
-      },
-    },
-    {
-      title: "sylents e-jets",
-      techStack: ["e-mobility", "maritime", "Production Rampup", "Germany"],
-      description:
-        "Initiated and cofounded a company that builds novel electric jets for maritime applications. Built techteam. Led development from first prototype to production.",
-      logo: sLogo,
-      link: {
-        label: "sylents.de",
-        href: "https://sylents.de/",
       },
     },
 
