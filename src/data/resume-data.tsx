@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Neusiedl am See, Austria, CET",
   locationLink: "https://maps.app.goo.gl/hRnHuWXARPzwCYcE8",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Business Developer with a focus on Computer Science, Artificial Intelligence (AI) and Robotics.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "As a Development Engineer i worked on custom ASICs (Infineon) and created the initial version of optical fiber networ (Riedel). As a Business Developer i cofounded startups, raised research fund and venture capital and built and led teams.",
   avatarUrl: "https://media.licdn.com/dms/image/C5603AQEuKW28-ihawA/profile-displayphoto-shrink_800_800/0/1531836294847?e=1711584000&v=beta&t=QP45JPmvSL8eESn8f8bWxNvOSc5xxHv0o9x2Ns05iNA",
   personalWebsiteUrl: "https://skale.io",
   contact: {
@@ -36,7 +36,7 @@ export const RESUME_DATA = {
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/skaledev",
+        url: "https://github.com/devskale",
         icon: GitHubIcon,
       },
       {
@@ -54,7 +54,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Vienna University of Technology",
-      degree: "Master's Degree in Coomputer Science",
+      degree: "Master's Degree in Computer Science",
       start: "1993",
       end: "2000",
     },
@@ -68,95 +68,156 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Coactive Networks",
-      link: "https://parabol.co",
-      badges: ["Onsite"],
-      title: "Chip Designer",
+      link: "https://coactive.com",
+      badges: ["US", "Silicon Valley"],
+      title: "ASIC Designer",
       logo: ParabolLogo,
       start: "1999",
       end: "2000",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "ASIC design for powerline communication",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Infineon Technologies",
+      link: "https://infineon.com",
+      badges: ["Onsite"],
+      title: "ASIC Engineer → DSP Engineer",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "2001",
+      end: "2003",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "DSL modem ASIC design, DSP algorithm development",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
+      company: "Riedel Mediornet",
+      link: "https://riedel.net",
+      badges: ["Onsite"],
+      title: "System Engineer → Lead System Architect",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      start: "2004",
+      end: "2007",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Built the system architecture for the first optical fiber network for audio and video transmission. Led the development of the first version of the product.",
     },
     {
-      company: "Nokia Siemens Networks",
+      company: "StreamUnlimited Engineering (SUE)",
       link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
+      badges: ["Onsite", "Travel"],
+      title: "International Sales Manager",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      start: "2007",
+      end: "2008",
+      description: "Established international sales contacts for SUE's SW and HW products. Grew the sales pipeline +30%. In 2017 Google aquired a stake in SUE.",
     },
+    {
+      company: "skale venture development",
+      link: "https://www.skale.io",
+      badges: ["Onsite", "Remote"],
+      title: "Owner",
+      logo: NSNLogo,
+      start: "2008",
+      end: "2024",
+      description: "Consulting and coaching for startups and SMEs. Acted as cofounder, business partner, CTO for several startups. Raised research funds and venture capital. Built and led teams.",
+    }
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
+    "Computer Science",
+    "ASIC Design",
+    "System Architecture",
+    "python",
+    "ML",
     "Relay",
-    "WebRTC",
+    "Business Planning",
+  ],
+  awards: [
+    "Best Austrian Startup Award WKO",
+    "Winner at Pioneers Startup Festival",
+    "3d place at i2b Businessplan Competition",
+    "Nominee Austrian Stateprize Consulting WKO"
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "sonarflow",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Founding Partner",
+        "Machine Learning",
+        "Business Planning",
+        "Fundraising",
+        "Venture Capital"
       ],
-      description: "A platform to build and grow your online business",
+      description: "A machine learning platform for music recommendation. I cofounded the company, raised research funds and venture capital and built and led the business team.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "sonarflow.com",
+        href: "https://sonarflow.com/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Stromkind",
+      techStack: ["Founding Partner",
+        "Robotics",
+        "Drones",
+        "Business Development"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Cofounded a company that builds and sells industrial drones. Won client contracts in Switzerland, Norway, UAE, Thailand and China.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "stromkind.com",
+        href: "https://stromkind.com/",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "sylents",
+      techStack: ["Founding Partner", "Germany", "Maritime Electric Jet"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "Initiated and cofounded a company that builds electric jets for maritime applications. Led the technical development of the first prototype and moved technology to production.",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://sylents.de/",
+      },
+    },
+  ],
+  seeds: [
+    {
+      title: "sonarflow",
+      techStack: [
+        "Founding Partner",
+        "Machine Learning",
+        "Business Planning",
+        "Fundraising",
+        "Venture Capital"
+      ],
+      description: "A machine learning platform for music recommendation. I cofounded the company, raised research funds and venture capital and built and led the business team.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "sonarflow.com",
+        href: "https://sonarflow.com/",
+      },
+    },
+    {
+      title: "Stromkind",
+      techStack: ["Founding Partner",
+        "Robotics",
+        "Drones",
+        "Business Development"],
+      description:
+        "Cofounded a company that builds and sells industrial drones. Won client contracts in Switzerland, Norway, UAE, Thailand and China.",
+      logo: MonitoLogo,
+      link: {
+        label: "stromkind.com",
+        href: "https://stromkind.com/",
+      },
+    },
+    {
+      title: "sylents",
+      techStack: ["Founding Partner", "Germany", "Maritime Electric Jet"],
+      description:
+        "Initiated and cofounded a company that builds electric jets for maritime applications. Led the technical development of the first prototype and moved technology to production.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "github.com",
+        href: "https://sylents.de/",
       },
     },
     {
@@ -207,78 +268,6 @@ export const RESUME_DATA = {
         label: "github.com",
         href: "https://parabol.co/",
       },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
