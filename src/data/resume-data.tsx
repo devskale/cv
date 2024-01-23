@@ -16,7 +16,7 @@ export const RESUME_DATA = {
   location: "Neusiedl am See, Austria, CET",
   locationLink: "https://maps.app.goo.gl/hRnHuWXARPzwCYcE8",
   about:
-    "Business developer with applied expertise in Computer Science, Artificial Intelligence (AI), and Robotics.",
+    "Business developer with a focus on leveraging my expertise in Computer Science, Artificial Intelligence (AI), and Robotics",
   summary:
     "As a Development Engineer, I designed custom ASICs and advanced to a Team Lead, steering the creation of a novel optical fiber network. My career pivoted to Business Development, where I worked with technology firms and co-founded startups, securing significant venture capital, and honed my skills in transforming ideas into products. My expertise lies in growing diverse teams and fostering innovation to drive business growth.",
   avatarUrl: "https://media.licdn.com/dms/image/C5603AQEuKW28-ihawA/profile-displayphoto-shrink_800_800/0/1531836294847?e=1711584000&v=beta&t=QP45JPmvSL8eESn8f8bWxNvOSc5xxHv0o9x2Ns05iNA",
