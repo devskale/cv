@@ -22,52 +22,58 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Hans Waldherr",
   initials: "HW",
-  location: "Vienna, Austria, CET",
-  locationLink: "https://www.google.com/maps/place/Vienna",
+  location: "Neusiedl am See, Austria, CET",
+  locationLink: "https://maps.app.goo.gl/hRnHuWXARPzwCYcE8",
   about:
     "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://media.licdn.com/dms/image/C5603AQEuKW28-ihawA/profile-displayphoto-shrink_800_800/0/1531836294847?e=1711584000&v=beta&t=QP45JPmvSL8eESn8f8bWxNvOSc5xxHv0o9x2Ns05iNA",
+  personalWebsiteUrl: "https://skale.io",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "hans@skale.io",
+    tel: "+436607383285",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/skaledev",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/johannwaldherr/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/woodmastr",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Vienna University of Technology",
+      degree: "Master's Degree in Coomputer Science",
+      start: "1993",
+      end: "2000",
     },
+    {
+      school: "Danube University Krems",
+      degree: "MBA in Entrepreneurship & Innovation",
+      start: "2004",
+      end: "2006",
+    }
   ],
   work: [
     {
-      company: "Parabol",
+      company: "Coactive Networks",
       link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      badges: ["Onsite"],
+      title: "Chip Designer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "1999",
+      end: "2000",
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     },
