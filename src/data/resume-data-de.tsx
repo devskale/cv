@@ -9,15 +9,15 @@ import {
 
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
-export const RESUME_DATA_DE = {
+export const RESUME_DATA = {
   name: "Hans Waldherr",
   initials: "HW",
   location: "Neusiedl am See, Austria, CET",
   locationLink: "https://maps.app.goo.gl/hRnHuWXARPzwCYcE8",
   about:
-    "Business Developer, spezialisiert auf Informatik, KI und Robotik.",
+    "Business Developer mit Hintergrund in Computertechnik, KI und Robotik.",
   summary:
-    "Als Entwicklungsingenieur konzipierte ich individuelle ASICs und stieg zum Teamleiter auf, verantwortlich für die Entwicklung eines innovativen optischen Glasfasernetzwerks. Meine Karriere orientierte sich anschließend Richtung Business Development, wo ich mit Technologieunternehmen arbeitete und mehrere Start-ups mitbegründete, signifikantes Venture-Kapital sicherte und meine Fähigkeiten in der Umwandlung von Ideen in Produkte verfeinerte. Meine Expertise liegt im Aufbau und der Führung vielfältiger Teams und der Förderung von Innovationen zur Steigerung des Geschäftswachstums.",
+    "Meine Spezialisierung als Entwicklungsingenieur waren digitale ASICs. Ich leitete die Entwicklung eines innovativen optischen Glasfasernetzwerks, das heute in der Formel 1 zum Einsatz kommt. Als Business Development Manager kooperierte ich mit führenden Technologieunternehmen und gründete mehrere Start-ups mit. Dabei akquirierte ich erfolgreich Risikokapital und schärfte meine Fähigkeiten zur Produktentwicklung. Mein Fachgebiet ist die Motivation von diversen Teams und die Förderung von Innovationen, um das Unternehmenswachstum zu beschleunigen.",
   avatarUrl: "https://media.licdn.com/dms/image/C5603AQEuKW28-ihawA/profile-displayphoto-shrink_800_800/0/1531836294847?e=1711584000&v=beta&t=QP45JPmvSL8eESn8f8bWxNvOSc5xxHv0o9x2Ns05iNA",
   personalWebsiteUrl: "https://skale.io",
   contact: {

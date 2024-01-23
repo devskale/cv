@@ -10,15 +10,15 @@ import {
 
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
-export const RESUME_DATA_EN = {
+export const RESUME_DATA = {
   name: "Hans Waldherr",
   initials: "HW",
   location: "Neusiedl am See, Austria, CET",
   locationLink: "https://maps.app.goo.gl/hRnHuWXARPzwCYcE8",
   about:
-    "Business developer specializing in Computer Science, AI, and Robotics.",
+    "Business developer with background in Computer Science, AI, and Robotics.",
   summary:
-    "As a Development Engineer, I designed custom ASICs and advanced to a Team Lead, steering the creation of a novel optical fiber network. My career pivoted to Business Development, where I worked with technology firms and co-founded startups, securing significant venture capital, and honed my skills in transforming ideas into products. My expertise lies in growing diverse teams and fostering innovation to drive business growth.",
+    "As a development engineer I specialized in customized ASICs and led the development of an innovative optical fiber network that is used in Formula 1. As a business development manager, I cooperated with leading technology companies and co-founded start-ups. In doing so, I successfully acquired venture capital and sharpened my skills in product development. My specialty is to motivate diverse teams and promote innovation to accelerate the growth of the company.",
   avatarUrl: "https://media.licdn.com/dms/image/C5603AQEuKW28-ihawA/profile-displayphoto-shrink_800_800/0/1531836294847?e=1711584000&v=beta&t=QP45JPmvSL8eESn8f8bWxNvOSc5xxHv0o9x2Ns05iNA",
   personalWebsiteUrl: "https://skale.io",
   contact: {
