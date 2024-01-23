@@ -65,7 +65,7 @@ export const RESUME_DATA = {
       logo: skaleLogo,
       start: "2008",
       end: "ongoing",
-      description: "Consulting and coaching for startups and SMEs. Acting as cofounder, business partner, CTO for several tech companies. Raised research funds and venture capital. Built, grew and led teams.",
+      description: "Consulting and coaching for startups and SMEs. Acting as cofounder, business partner, CTO for several tech companies. Raising funds, growing teams, building products.",
     },
     {
       company: "StreamUnlimited Engineering (SUE)",

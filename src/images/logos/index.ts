@@ -1,15 +1,6 @@
-import sLogo from "./sLogo.png";
-import skaleLogo from "./skaleLogo.png";
-import sueLogo from "./sueLogo.png";
-import infineonLogo from "./infineonLogo.png";
-import coactiveLogo from "./coactiveLogo.png";
-import riedelLogo from "./riedelLogo.png";
-
-export {
-  riedelLogo,
-  skaleLogo,
-  coactiveLogo,
-  infineonLogo,
-  sueLogo,
-  sLogo
-};
+export { default as sLogo } from "./sLogo.png";
+export { default as skaleLogo } from "./skaleLogo.png";
+export { default as sueLogo } from "./sueLogo.png";
+export { default as infineonLogo } from "./infineonLogo.png";
+export { default as coactiveLogo } from "./coactiveLogo.png";
+export { default as riedelLogo } from "./riedelLogo.png";
