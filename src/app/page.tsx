@@ -160,6 +160,7 @@ export default function Page() {
           {RESUME_DATA.education.map((education) => {
             return (
               <Card key={education.school}>
+
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="font-semibold leading-none">

@@ -6,6 +6,7 @@ import {
   skaleLogo,
   sLogo,
 } from "@/images/logos";
+
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -138,7 +139,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Retinsight",
+      title: "Retinsight AI",
       techStack: ["AI", "MedTech", "Research Grant"],
       description:
         "Aquisition of seed grant of 500k€ from the Austrian Research Promotion Agency (FFG) for a university spinoff project that uses AI to analyze the retina.",
@@ -159,7 +160,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Bionana",
+      title: "Bionana eShop",
       techStack: [
         "biodiversity",
         "e-commerce",
@@ -173,7 +174,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "BlueInvest",
+      title: "BlueInvest EU",
       techStack: [
         "Blue Economy",
         "Consulting",
@@ -188,7 +189,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Seasy",
+      title: "Seasy ePlatform",
       techStack: [
         "AI",
         "Business Development",
@@ -202,7 +203,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Skyability",
+      title: "Skyability Sensors",
       techStack: [
         "Drone",
         "Sensor Fusion",
