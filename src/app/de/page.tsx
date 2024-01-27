@@ -8,6 +8,7 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data-de";
 import { ProjectCard } from "@/components/project-card";
+import WorkCard from "@/components/work-card";
 import Link from 'next/link';
 
 export const metadata: Metadata = {
@@ -103,63 +104,12 @@ export default function Page() {
             {RESUME_DATA.summary}
           </p>
         </Section>
+
         <Section>
           <h2 className="text-xl font-bold">Berufserfahrung</h2>
-          {RESUME_DATA.work.map((work) => {
-            return (
-              <Card key={work.company}>
-                <div className="flex" style={{ alignItems: 'flex-start' }}>
-                  <img
-                    src={work.logo.src || ''}
-                    alt="Company Logo"
-                    style={{
-                      width: '50px',
-                      height: 'auto',
-                      objectFit: 'contain',
-                      filter: 'grayscale(100%)',
-                      marginRight: '25px',
-                      marginTop: '10px'
-                    }}
-                  />
-                  <div>
-                    <CardHeader>
-                      <div className="flex items-center justify-between gap-x-2 text-base">
-
-                        <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                          <a className="hover:underline" href={work.link}>
-                            {work.company}
-                          </a>
-
-                          <span className="inline-flex gap-x-1">
-                            {work.badges.map((badge) => (
-                              <Badge
-                                variant="secondary"
-                                className="align-middle text-xs"
-                                key={badge}
-                              >
-                                {badge}
-                              </Badge>
-                            ))}
-                          </span>
-                        </h3>
-                        <div className="text-sm tabular-nums text-gray-500">
-                          {work.start} - {work.end}
-                        </div>
-                      </div>
-
-                      <h4 className="font-mono text-sm leading-none">
-                        {work.title}
-                      </h4>
-                    </CardHeader>
-
-                    <CardContent className="mt-2 text-xs">
-                      {work.description}
-                    </CardContent>
-                  </div>
-                </div>
-              </Card>
-            );
-          })}
+          {RESUME_DATA.work.map((work) => (
+            <WorkCard key={work.company} work={work} />
+          ))}
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Ausbildung</h2>
@@ -233,6 +183,24 @@ export default function Page() {
           </div>
         </Section>
 
+        <Section>
+          <h2 className="text-xl font-bold">Dateien</h2>
+          {RESUME_DATA.downloads.map((download) => {
+            return (
+              <Card key={download.institution}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="font-normal text-sm leading-none">
+                      {download.institution}
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      <a href={download.link} download>{download.fname}</a>
+                    </div>
+                  </div>
+                </CardHeader>
+              </Card>);
+          })}
+        </Section>
       </section>
 
       <CommandMenu

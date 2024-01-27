@@ -51,8 +51,8 @@ export const RESUME_DATA = {
     {
       school: "Donau Universität Krems",
       degree: "MBA Kurs Entrepreneurship & Innovation",
-      start: "2004",
-      end: "2006",
+      start: "2006",
+      end: "2008",
     }
   ],
   work: [
@@ -261,5 +261,17 @@ export const RESUME_DATA = {
       },
     },
 
+  ],
+  downloads: [
+    {
+      institution: "Technische Universität Wien",
+      fname: "Diplomzeugnis [pdf]",
+      link: "/files/Zeugnisse.pdf", // replace with the actual URL of the PDF file
+    },
+    {
+      institution: "Donau Universität Krems",
+      fname: "MBA Kurs Zeugnis [pdf]",
+      link: "/files/Waldherr_MBA_Noten.pdf", // replace with the actual URL of the PDF file
+    }
   ],
 } as const;
