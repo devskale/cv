@@ -182,7 +182,6 @@ export default function Page() {
             })}
           </div>
         </Section>
-
         <Section>
           <h2 className="text-xl font-bold">Dateien</h2>
           {RESUME_DATA.downloads.map((download) => {

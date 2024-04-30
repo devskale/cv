@@ -18,7 +18,7 @@ export const RESUME_DATA = {
     "Business Developer mit Hintergrund in Computertechnik, KI und Robotik.",
   summary:
     "Meine Spezialisierung als Entwicklungsingenieur waren digitale ASICs. Ich leitete die Entwicklung eines innovativen optischen Glasfasernetzwerks, das heute in der Formel 1 zum Einsatz kommt. Als Business Development Manager kooperierte ich mit führenden Technologieunternehmen und gründete mehrere Start-ups mit. Dabei akquirierte ich erfolgreich Risikokapital und schärfte meine Fähigkeiten zur Produktentwicklung. Mein Fachgebiet ist die Motivation von diversen Teams und die Förderung von Innovationen, um das Unternehmenswachstum zu beschleunigen.",
-  avatarUrl: "https://pbs.twimg.com/profile_images/1750484168348160000/i2muC6oC_400x400.jpg",
+  avatarUrl: "https://skale.io/wp-content/uploads/2024/04/me_400x400.jpg",
   personalWebsiteUrl: "https://skale.io",
   contact: {
     email: "hans@skale.io",

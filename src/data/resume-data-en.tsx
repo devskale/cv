@@ -19,7 +19,7 @@ export const RESUME_DATA = {
     "Business developer with background in Computer Science, AI, and Robotics.",
   summary:
     "As a development engineer I specialized in customized ASICs and led the development of an innovative optical fiber network that is used in Formula 1. As a business development manager, I cooperated with leading technology companies and co-founded start-ups. In doing so, I successfully acquired venture capital and sharpened my skills in product development. My specialty is to motivate diverse teams and promote innovation to accelerate the growth of the company.",
-  avatarUrl: "https://pbs.twimg.com/profile_images/1750484168348160000/i2muC6oC_400x400.jpg",
+  avatarUrl: "https://skale.io/wp-content/uploads/2024/04/me_400x400.jpg",
   personalWebsiteUrl: "https://skale.io",
   contact: {
     email: "hans@skale.io",

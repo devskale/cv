@@ -8,24 +8,20 @@ import {
 } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Work } from "./types"; // Import the 'Work' type from the appropriate file
-
+import Image from 'next/image';
 
 
 export default function WorkCard({ work }: { work: Work }) {
     return (
         <Card key={work.company}>
             <div className="flex" style={{ alignItems: 'flex-start' }}>
-                <img
+                <Image
                     src={work.logo.src || ''}
                     alt="Company Logo"
-                    style={{
-                        width: '50px',
-                        height: 'auto',
-                        objectFit: 'contain',
-                        filter: 'grayscale(100%)',
-                        marginRight: '25px',
-                        marginTop: '10px'
-                    }}
+                    width={50}
+                    height={50}
+                    objectFit="contain"
+                    className="grayscale mr-6 mt-2"
                 />
                 <div>
                     <CardHeader>
