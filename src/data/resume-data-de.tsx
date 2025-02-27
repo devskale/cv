@@ -18,7 +18,8 @@ export const RESUME_DATA = {
     "Business Developer mit Hintergrund in Computertechnik, KI und Robotik.",
   summary:
     "Meine Spezialisierung als Entwicklungsingenieur waren digitale ASICs. Ich leitete die Entwicklung eines innovativen optischen Glasfasernetzwerks, das heute in der Formel 1 zum Einsatz kommt. Als Business Development Manager kooperierte ich mit führenden Technologieunternehmen und gründete mehrere Start-ups mit. Dabei akquirierte ich erfolgreich Risikokapital und schärfte meine Fähigkeiten zur Produktentwicklung. Mein Fachgebiet ist die Motivation von diversen Teams und die Förderung von Innovationen, um das Unternehmenswachstum zu beschleunigen.",
-  avatarUrl: "https://skale.io/wp-content/uploads/2024/04/me_400x400.jpg",
+  avatarUrl:
+    "https://media.licdn.com/dms/image/v2/D4D03AQFg6bUzH06fxA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728465334303?e=1746057600&v=beta&t=xjyxblpDtiOVpwoVLdtgA7G2SuIkpHYGxGeXwxCpvzE",
   personalWebsiteUrl: "https://skale.io",
   contact: {
     email: "hans@skale.io",
@@ -53,7 +54,7 @@ export const RESUME_DATA = {
       degree: "MBA Kurs Entrepreneurship & Innovation",
       start: "2006",
       end: "2008",
-    }
+    },
   ],
   work: [
     {
@@ -64,7 +65,8 @@ export const RESUME_DATA = {
       logo: skaleLogo,
       start: "2008",
       end: "heute",
-      description: "Beratung und Coaching für Start-ups und KMU. Als Mitgründer, Geschäftspartner, CTO für mehrere Technologieunternehmen tätig. Einwerbung von Forschungsgelder und Risikokapital. Teams aufgebaut und geleitet.",
+      description:
+        "Beratung und Coaching für Start-ups und KMU. Als Mitgründer, Geschäftspartner, CTO für mehrere Technologieunternehmen tätig. Einwerbung von Forschungsgelder und Risikokapital. Teams aufgebaut und geleitet.",
     },
     {
       company: "StreamUnlimited Engineering (SUE)",
@@ -74,7 +76,8 @@ export const RESUME_DATA = {
       logo: sueLogo,
       start: "2007",
       end: "2008",
-      description: "Ausweitung des globalen Vertriebsnetzes für die Software- und Hardwareprodukte von SUE, wodurch ein Wachstum der Vertriebspipeline um 30 % erreicht wurde. Bemerkenswert: 2017 beteiligt sich Google an SUE.",
+      description:
+        "Ausweitung des globalen Vertriebsnetzes für die Software- und Hardwareprodukte von SUE, wodurch ein Wachstum der Vertriebspipeline um 30 % erreicht wurde. Bemerkenswert: 2017 beteiligt sich Google an SUE.",
     },
     {
       company: "Riedel Mediornet",
@@ -109,7 +112,6 @@ export const RESUME_DATA = {
       description:
         "ASIC-Design für Powerline-Kommunikation. Integration eines USB-IP-Cores in ein individuelles Chipdesign.",
     },
-
   ],
   skills: [
     "Business Planning",
@@ -125,7 +127,7 @@ export const RESUME_DATA = {
     "Gewinner Pioneers Startup Festival",
     "3er Rang i2b Businessplan",
     "Nominiert für Österreichischer Staatspreis Consulting",
-    "WKO Constantinus Preis Finalist"
+    "WKO Constantinus Preis Finalist",
   ],
   projects: [
     {
@@ -153,7 +155,8 @@ export const RESUME_DATA = {
     {
       title: "Pino Robotics",
       techStack: ["AI Vision", "Robotics", "Funding"],
-      description: "Förderung einer innovativen KI-Vision-Technologie, um Industrierobotik für KMU nutzbar zu machen.",
+      description:
+        "Förderung einer innovativen KI-Vision-Technologie, um Industrierobotik für KMU nutzbar zu machen.",
       logo: sLogo,
       link: {
         label: "cncmonster.eu",
@@ -162,10 +165,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Bionana eShop",
-      techStack: [
-        "biodiversity",
-        "e-commerce",
-      ],
+      techStack: ["biodiversity", "e-commerce"],
       description:
         "Beratung für ein Startup, das einen Marktplatz für Biodiversität aufbaut.",
       logo: sLogo,
@@ -176,11 +176,7 @@ export const RESUME_DATA = {
     },
     {
       title: "BlueInvest EU",
-      techStack: [
-        "Blue Economy",
-        "Consulting",
-        "EU",
-      ],
+      techStack: ["Blue Economy", "Consulting", "EU"],
       description:
         "Coaching für Startups und KMUs in der Blue Economy. BlueInvest ist eine Initiative der Europäischen Kommission.",
       logo: sLogo,
@@ -191,10 +187,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Seasy ePlatform",
-      techStack: [
-        "AI",
-        "Business Development",
-      ],
+      techStack: ["AI", "Business Development"],
       description:
         "Beratung für ein Startup, das Europas führende Marina-Vermietungsplattform aufbaut.",
       logo: sLogo,
@@ -205,11 +198,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Skyability Sensors",
-      techStack: [
-        "Drone",
-        "Sensor Fusion",
-        "3D Mapping",
-      ],
+      techStack: ["Drone", "Sensor Fusion", "3D Mapping"],
       description:
         "Leitete den Finanzierungsprozess für ein Startup, das eine drohnenbasierte 3D-Kartierungslösung für die Bauindustrie entwickelt.",
       logo: sLogo,
@@ -233,10 +222,7 @@ export const RESUME_DATA = {
     },
     {
       title: "stromkind drones",
-      techStack: [
-        "Robotics",
-        "Drones",
-        "Business Development"],
+      techStack: ["Robotics", "Drones", "Business Development"],
       description:
         "Mitbegründer eines Unternehmens, das Industriedrohnen baut und verkauft. Erworbene Startkapitalfinanzierung. Gewinnung von Kunden in der Schweiz, Norwegen, den Vereinigten Arabischen Emiraten, Thailand und China mit einem Umsatzwert von über 500.000 €",
       logo: sLogo,
@@ -251,16 +237,16 @@ export const RESUME_DATA = {
         "Machine Learning",
         "Business Planning",
         "Fundraising",
-        "Venture Capital"
+        "Venture Capital",
       ],
-      description: "Eine maschinelle Lernplattform für Musikempfehlungen. Ich war Mitbegründer des Unternehmens, sammelte Forschungsgelder und Risikokapital und leitete das Business Team.",
+      description:
+        "Eine maschinelle Lernplattform für Musikempfehlungen. Ich war Mitbegründer des Unternehmens, sammelte Forschungsgelder und Risikokapital und leitete das Business Team.",
       logo: sLogo,
       link: {
         label: "sonarflow.com",
         href: "https://sonarflow.com/",
       },
     },
-
   ],
   downloads: [
     {
@@ -272,6 +258,6 @@ export const RESUME_DATA = {
       institution: "Donau Universität Krems",
       fname: "MBA Kurs Zeugnis [pdf]",
       link: "/files/Waldherr_MBA_Noten.pdf", // replace with the actual URL of the PDF file
-    }
+    },
   ],
 } as const;

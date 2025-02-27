@@ -7,7 +7,6 @@ import {
   sLogo,
 } from "@/images/logos";
 
-
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -16,10 +15,11 @@ export const RESUME_DATA = {
   location: "Neusiedl am See, Austria, CET",
   locationLink: "https://maps.app.goo.gl/hRnHuWXARPzwCYcE8",
   about:
-    "Business developer with background in Computer Science, AI, and Robotics.",
+    "Computer scientist bridging innovative technology development with business acumen",
   summary:
-    "As a development engineer I specialized in customized ASICs and led the development of an innovative optical fiber network that is used in Formula 1. As a business development manager, I cooperated with leading technology companies and co-founded start-ups. In doing so, I successfully acquired venture capital and sharpened my skills in product development. My specialty is to motivate diverse teams and promote innovation to accelerate the growth of the company.",
-  avatarUrl: "https://skale.io/wp-content/uploads/2024/04/me_400x400.jpg",
+    "My experience spans ASIC design, robotics, and ML/AI applications for startups and tech firms. Through venture development expertise, I have successfully transformed technical concepts into market-ready products, secured capital funding, and led technical teams to deliver solutions across a diverse range of industries including legaltech, maritime e-mobility, and medical technology.",
+  avatarUrl:
+    "https://media.licdn.com/dms/image/v2/D4D03AQFg6bUzH06fxA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728465334303?e=1746057600&v=beta&t=xjyxblpDtiOVpwoVLdtgA7G2SuIkpHYGxGeXwxCpvzE",
   personalWebsiteUrl: "https://skale.io",
   contact: {
     email: "hans@skale.io",
@@ -54,7 +54,7 @@ export const RESUME_DATA = {
       degree: "MBA course in Entrepreneurship & Innovation",
       start: "2004",
       end: "2006",
-    }
+    },
   ],
   work: [
     {
@@ -65,7 +65,8 @@ export const RESUME_DATA = {
       logo: skaleLogo,
       start: "2008",
       end: "ongoing",
-      description: "Consulting and coaching for startups and SMEs. Acting as cofounder, business partner, CTO for several tech companies. Raised research funds and venture capital. Built, grew and led teams.",
+      description:
+        "As a technical partner, I collaborate with founders in robotics and AI to develop innovative products and secure funding, leading teams to deliver market-leading solutions.",
     },
     {
       company: "StreamUnlimited Engineering (SUE)",
@@ -75,7 +76,8 @@ export const RESUME_DATA = {
       logo: sueLogo,
       start: "2007",
       end: "2008",
-      description: "Expanded the global sales network for SUE's software and hardware products, achieving a 30% growth in the sales pipeline. Notably, in 2017, Google acquired a stake in SUE.",
+      description:
+        "Led technical sales for an innovative electronics platform, expanding sales and achieving 30% pipeline growth. Company was later acquired by Google.",
     },
     {
       company: "Riedel Mediornet",
@@ -86,7 +88,7 @@ export const RESUME_DATA = {
       start: "2004",
       end: "2007",
       description:
-        "Built the system architecture for the first optical fiber network for audio and video transmission. Led the development of the first version of the product.",
+        "Built the system architecture for the first optical realtime network for live multimedia in the broadcast industry. From concept to product, built techteam, served lead clients.",
     },
     {
       company: "Infineon Technologies",
@@ -97,7 +99,7 @@ export const RESUME_DATA = {
       start: "2001",
       end: "2003",
       description:
-        "Product ownership of a complex DSL modem ASIC design. DSP algorithm development into IP phone equipment.",
+        "Product ownership of a complex DSL modem ASIC design. Development of DSP algorithms.",
     },
     {
       company: "Coactive Networks",
@@ -108,9 +110,8 @@ export const RESUME_DATA = {
       start: "1999",
       end: "2000",
       description:
-        "ASIC design for powerline communication. Integration of a USB IP core into a custom chip design.",
+        "ASIC design for powerline communication at a Silicon Valley tech startup. Introducing of innovative HW/SW codesign princpiles.",
     },
-
   ],
   skills: [
     "Business Planning",
@@ -126,14 +127,25 @@ export const RESUME_DATA = {
     "Winner at Pioneers Startup Festival",
     "3d place at i2b Businessplan Competition",
     "Nominee Austrian Stateprize Consulting WKO",
-    "WKO Constantinus Award Finalist"
+    "WKO Constantinus Award Finalist",
   ],
   projects: [
+    {
+      title: "LegalTech",
+      techStack: ["Agentic AI", "Legaltech"],
+      description:
+        "Development of a secure AI-driven legaltech platform to qualify tender processing, enhancing transactional precision and operational efficiency.",
+      logo: sLogo,
+      link: {
+        label: "wienerwohnen",
+        href: "https://www.wienerwohnen.at/",
+      },
+    },
     {
       title: "GreenPilot",
       techStack: ["Mobile Game", "Education", "GreenTech"],
       description:
-        "Conception and financing of a mobile game that teaches kids about renewable energy.",
+        "Conception and funding of a mobile game that teaches kids on renewable energy with innovative game mechanics.",
       logo: sLogo,
       link: {
         label: "greenpilot.at",
@@ -144,7 +156,7 @@ export const RESUME_DATA = {
       title: "Retinsight AI",
       techStack: ["AI", "MedTech", "Research Grant"],
       description:
-        "Aquisition of seed grant of 500k€ from the Austrian Research Promotion Agency (FFG) for a university spinoff project that uses AI to analyze the retina.",
+        "Technical consulting for an AI-driven platform analyzing retinal data, enabling the successful spinoff of a university project into a venture focused on advancing this innovative technology.",
       logo: sLogo,
       link: {
         label: "Retinsight",
@@ -154,7 +166,8 @@ export const RESUME_DATA = {
     {
       title: "Pino Robotics",
       techStack: ["AI Vision", "Robotics", "Funding"],
-      description: "Funding for an innovative AI vision technology to make industrial robotics usable for SMEs.",
+      description:
+        "Technical consulting that led to securing funding for an innovative AI-powered machine vision technologyy to make industrial robotics usable for SMEs.",
       logo: sLogo,
       link: {
         label: "cncmonster.eu",
@@ -163,12 +176,9 @@ export const RESUME_DATA = {
     },
     {
       title: "Bionana eShop",
-      techStack: [
-        "biodiversity",
-        "e-commerce",
-      ],
+      techStack: ["biodiversity", "e-commerce"],
       description:
-        "Consulting for a startup that builds a marketplace for biodiversity.",
+        "Consulting for a startup that builds a digital marketplace for biodiversity.",
       logo: sLogo,
       link: {
         label: "bionana.at",
@@ -177,11 +187,7 @@ export const RESUME_DATA = {
     },
     {
       title: "BlueInvest EU",
-      techStack: [
-        "Blue Economy",
-        "Consulting",
-        "EU",
-      ],
+      techStack: ["Blue Economy", "Consulting", "EU"],
       description:
         "Coaching for startups and SMEs in the Blue Economy. BlueInvest is an initiative of the European Commission.",
       logo: sLogo,
@@ -192,10 +198,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Seasy ePlatform",
-      techStack: [
-        "AI",
-        "Business Development",
-      ],
+      techStack: ["AI", "Business Development"],
       description:
         "Consulting for a startup that builds europes leading marina rental platform.",
       logo: sLogo,
@@ -206,11 +209,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Skyability Sensors",
-      techStack: [
-        "Drone",
-        "Sensor Fusion",
-        "3D Mapping",
-      ],
+      techStack: ["Drone", "Machine Vision", "3D Mapping"],
       description:
         "Led the funding process for a startup that builds a drone based 3D mapping solution for the construction industry.",
       logo: sLogo,
@@ -234,10 +233,7 @@ export const RESUME_DATA = {
     },
     {
       title: "stromkind drones",
-      techStack: [
-        "Robotics",
-        "Drones",
-        "Business Development"],
+      techStack: ["Robotics", "Drones", "Business Development"],
       description:
         "Cofounded a company that builds and sells industrial drones. Aquireed seed funding. Won clients in Switzerland, Norway, UAE, Thailand and China exceeding 500k€ in sales value",
       logo: sLogo,
@@ -252,15 +248,15 @@ export const RESUME_DATA = {
         "Machine Learning",
         "Business Planning",
         "Fundraising",
-        "Venture Capital"
+        "Venture Capital",
       ],
-      description: "A machine learning platform for music recommendation. I cofounded the company, raised research funds and venture capital and built and led the business team.",
+      description:
+        "A novel machine learning platform for music recommendation and entity relationship vizualization. I cofounded the company, raised funds and venture capital, built and led teams.",
       logo: sLogo,
       link: {
         label: "sonarflow.com",
         href: "https://sonarflow.com/",
       },
     },
-
   ],
 } as const;
