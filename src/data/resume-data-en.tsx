@@ -99,7 +99,7 @@ export const RESUME_DATA = {
       start: "2001",
       end: "2003",
       description:
-        "Product ownership of a complex DSL modem ASIC design. Development of DSP algorithms.",
+        "Product ownership of a part of a complex DSL modem ASIC design. Development of DSP algorithms.",
     },
     {
       company: "Coactive Networks",
@@ -156,7 +156,7 @@ export const RESUME_DATA = {
       title: "Retinsight AI",
       techStack: ["AI", "MedTech", "Grant"],
       description:
-        "Consulting for an AI-driven retinal analysis platform, enabling successful university spinoff into a venture advancing innovative technology.",
+        "Consulting for an AI-driven retinal analysis platform, enabling successful university spinoff.",
       logo: sLogo,
       link: {
         label: "Retinsight",
