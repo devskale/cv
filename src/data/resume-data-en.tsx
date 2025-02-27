@@ -134,7 +134,7 @@ export const RESUME_DATA = {
       title: "LegalTech",
       techStack: ["Agentic AI", "Legaltech"],
       description:
-        "Development of a secure AI-driven legaltech platform to qualify tender processing, enhancing transactional precision and operational efficiency.",
+        "Develpment of a secure AI-platform that qualifies tender processing, enhancing transaction precision and operational efficiency.",
       logo: sLogo,
       link: {
         label: "wienerwohnen",
@@ -154,9 +154,9 @@ export const RESUME_DATA = {
     },
     {
       title: "Retinsight AI",
-      techStack: ["AI", "MedTech", "Research Grant"],
+      techStack: ["AI", "MedTech", "Grant"],
       description:
-        "Technical consulting for an AI-driven platform analyzing retinal data, enabling the successful spinoff of a university project into a venture focused on advancing this innovative technology.",
+        "Consulting for an AI-driven retinal analysis platform, enabling successful university spinoff into a venture advancing innovative technology.",
       logo: sLogo,
       link: {
         label: "Retinsight",
@@ -209,7 +209,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Skyability Sensors",
-      techStack: ["Drone", "Machine Vision", "3D Mapping"],
+      techStack: ["Drone", "Machine Vision"],
       description:
         "Led the funding process for a startup that builds a drone based 3D mapping solution for the construction industry.",
       logo: sLogo,
@@ -224,7 +224,7 @@ export const RESUME_DATA = {
       title: "sylents e-jets",
       techStack: ["e-mobility", "maritime", "Production Rampup", "Germany"],
       description:
-        "Initiated and cofounded a company that builds novel electric jets for maritime applications. Built techteam. Led development from first prototype to production.",
+        "Founding partner of maritime e-jet startup. Built techteam. Led development from first prototype to production.",
       logo: sLogo,
       link: {
         label: "sylents.de",
@@ -235,7 +235,7 @@ export const RESUME_DATA = {
       title: "stromkind drones",
       techStack: ["Robotics", "Drones", "Business Development"],
       description:
-        "Cofounded a company that builds and sells industrial drones. Aquireed seed funding. Won clients in Switzerland, Norway, UAE, Thailand and China exceeding 500k€ in sales value",
+        "Cofounded a company that builds and sells special purpose drones. Acquired seed funding. Built initial international sales pipeline exceeding 500k€.",
       logo: sLogo,
       link: {
         label: "stromkind.com",
@@ -251,7 +251,7 @@ export const RESUME_DATA = {
         "Venture Capital",
       ],
       description:
-        "A novel machine learning platform for music recommendation and entity relationship vizualization. I cofounded the company, raised funds and venture capital, built and led teams.",
+        "Developed a novel machine learning platform for music recommendation. Raised funds and venture capital, built and led a diverse team.",
       logo: sLogo,
       link: {
         label: "sonarflow.com",
