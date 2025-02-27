@@ -8,9 +8,8 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data-en";
 import { ProjectCard } from "@/components/project-card";
-import Link from 'next/link';
+import Link from "next/link";
 import WorkCard from "@/components/work-card";
-
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -20,9 +19,11 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
-      <Link href="/de"><p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
-        de
-      </p></Link>
+      <Link href="/de">
+        <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
+          de
+        </p>
+      </Link>
 
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
         <div className="flex items-center justify-between">
@@ -106,7 +107,7 @@ export default function Page() {
           </p>
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Berufserfahrung</h2>
+          <h2 className="text-xl font-bold">Experience</h2>
           {RESUME_DATA.work.map((work) => (
             <WorkCard key={work.company} work={work} />
           ))}
@@ -116,7 +117,6 @@ export default function Page() {
           {RESUME_DATA.education.map((education) => {
             return (
               <Card key={education.school}>
-
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="font-semibold leading-none">
@@ -182,7 +182,6 @@ export default function Page() {
             })}
           </div>
         </Section>
-
       </section>
 
       <CommandMenu
