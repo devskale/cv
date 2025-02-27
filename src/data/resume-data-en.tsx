@@ -17,7 +17,7 @@ export const RESUME_DATA = {
   about:
     "Computer scientist bridging innovative technology development with business acumen",
   summary:
-    "My experience spans ASIC design, robotics, and ML/AI applications for startups and tech firms. Through venture development expertise, I have successfully transformed technical concepts into market-ready products, secured capital funding, and led technical teams to deliver solutions across a diverse range of industries including legaltech, maritime e-mobility, and medical technology.",
+    "My experience spans ASIC design, robotics, and ML/AI applications for startups and tech firms. Through venture development expertise, I have transformed technical concepts into market-ready products, secured funding, and led technical teams to deliver solutions across a diverse range of industries.",
   avatarUrl:
     "https://media.licdn.com/dms/image/v2/D4D03AQFg6bUzH06fxA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728465334303?e=1746057600&v=beta&t=xjyxblpDtiOVpwoVLdtgA7G2SuIkpHYGxGeXwxCpvzE",
   personalWebsiteUrl: "https://skale.io",
